@@ -1,0 +1,53 @@
+{
+  "digipets": {
+    "digipetId": {
+      "lastBored": "TIMESTAMP",
+      "lastDirty": "TIMESTAMP",
+      "lastFed": "TIMESTAMP",
+      "petName": "Fluffy",
+      "userId": "{userId}"
+    }
+  },
+  "notifications": {
+    "boredNotification": {
+      "lastPlayed": "TIMESTAMP",
+      "message": "{petName} is bored, please play with them!",
+      "userId": "{userId}"
+    },
+    "dirtyNotification": {
+      "lastWashed": "TIMESTAMP",
+      "message": "{petName} is dirty, please clean them!",
+      "userId": "{userId}"
+    },
+    "hungryNotification": {
+      "lastFed": "TIMESTAMP",
+      "message": "{petName} is hungry, please feed them!",
+      "userId": "{userId}"
+    }
+  },
+  "tasks": {
+    "taskId1": {
+      "completed": false,
+      "taskLabel": "Do the thing",
+      "userId": "{userId}"
+    },
+    "taskId2": {
+      "completed": false,
+      "taskLabel": "Do the other things",
+      "userId": "{userId}"
+    },
+    "taskId3": {
+      "completed": false,
+      "taskLabel": "Do another another thing",
+      "userId": "{userId}"
+    }
+  },
+  "users": {
+    "{userId}": {
+      "email": "example@email.com",
+      "firstName": "Ellen",
+      "lastName": "Uttley",
+      "password": "password"
+    }
+  }
+}
