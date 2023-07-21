@@ -56,18 +56,19 @@ const TaskListScreen = ({ navigation }) => {
           <View style={styles.cardContainer}>
             <BackButton />
         
-            <Image source={require('../assets/images/pet_graphics/petpage-yellow.png')} style={{resizeMode: 'contain', width: "60%", height: "30%", opacity: 0.7, padding: 15, alignSelf: 'center', position: 'absolute', top: 35}}></Image>
+            <Image source={require('../assets/images/pet_graphics/petpage-yellow.png')} style={{resizeMode: 'contain', width: "60%", opacity: 0.7, padding: 15, alignSelf: 'center', position: 'absolute', top: 0}}></Image>
+
             <Image style={styles.header} source={require('../assets/images/headers/toDo-header-tp.png')}></Image>
 
             <TouchableOpacity style={styles.buttonStyle} onPress={() => {navigation.navigate('Pet')}}>
               <Text style={styles.textStyle}>Check on your</Text>
               <Text style={styles.textStyle}>buddy</Text>
             </TouchableOpacity>
-
+            { tasksList }
             <ModalExample visible={openModal} onClose={closeModal} />
           </View>
 
-          { tasksList }
+
         </ImageBackground>
       </KeyboardAvoidingView>
     </TouchableWithoutFeedback>
@@ -86,10 +87,10 @@ const styles = StyleSheet.create({
   },
   header: {
     resizeMode: 'contain',
-    width: 280, 
-    height: 20, 
+    width: 250, 
+    height: 10, 
     padding: 35,
-    position: 'absolute', top: 75,
+    position: 'absolute', top: 75, 
     alignSelf: 'center',
 
   },
@@ -101,14 +102,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     alignSelf: 'center',
     width: 250,
-
-    position: 'relative', bottom :70, top:2,
+    position: 'relative', 
     alignSelf: 'center',
   },
   taskText: {
     marginLeft: 10,
     marginRight: 10,
     fontSize: 16,
+    width: 200,
     color: '#280003',
     fontFamily: 'IreneFlorentina',
     alignSelf: 'center',
@@ -136,7 +137,6 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 25,
     borderRadius: 30,
-    elevation: 3,
     backgroundColor: '#FAF2A3',
     position: 'relative', top: 268, 
     margin: 10,
