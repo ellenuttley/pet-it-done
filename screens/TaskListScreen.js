@@ -59,16 +59,17 @@ const TaskListScreen = ({ navigation }) => {
             <Image source={require('../assets/images/pet_graphics/petpage-yellow.png')} style={{resizeMode: 'contain', width: "60%", opacity: 0.7, padding: 15, alignSelf: 'center', position: 'absolute', top: 0}}></Image>
 
             <Image style={styles.header} source={require('../assets/images/headers/toDo-header-tp.png')}></Image>
+ 
+            { tasksList }
 
             <TouchableOpacity style={styles.buttonStyle} onPress={() => {navigation.navigate('Pet')}}>
               <Text style={styles.textStyle}>Check on your</Text>
               <Text style={styles.textStyle}>buddy</Text>
             </TouchableOpacity>
-            { tasksList }
             <ModalExample visible={openModal} onClose={closeModal} />
+            
+
           </View>
-
-
         </ImageBackground>
       </KeyboardAvoidingView>
     </TouchableWithoutFeedback>
@@ -91,7 +92,7 @@ const styles = StyleSheet.create({
     height: 10, 
     padding: 35,
     position: 'absolute', top: 75, 
-    alignSelf: 'center',
+    alignSelf: 'center'
 
   },
   taskContainer: {
@@ -100,10 +101,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     backgroundColor: "#FEFAFA",
     borderRadius: 10,
-    alignSelf: 'center',
     width: 250,
-    position: 'relative', 
-    alignSelf: 'center',
+    position: 'relative', top: 55
   },
   taskText: {
     marginLeft: 10,
@@ -122,14 +121,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(176, 227, 240, 0.7)',
     alignItems: 'center', 
   },
-  title: {
-    fontSize: 40,
-    elevation: 4,
-    alignSelf: 'center',
-    fontFamily: 'IreneFlorentina',
-    color: '#280003',
-    position: 'absolute', top: 50, 
-  },
   buttonStyle: {
     alignItems: 'center',
     alignSelf: 'center',
@@ -138,7 +129,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 25,
     borderRadius: 30,
     backgroundColor: '#FAF2A3',
-    position: 'relative', top: 268, 
+    position: 'relative', top: 75, 
     margin: 10,
   },
   textStyle: {
