@@ -180,16 +180,3 @@ const styles = StyleSheet.create({
 
 export default SignupScreen;
 
-
-
-// SIGN UP DUMMY DATA
-  // function handleSignup(email, password, firstName, lastName, petName) {
-  //   const db = getDatabase();
-  //   set(ref(db, 'users'), {
-  //     firstName: "Test",
-  //     lastName: "McTesterson",
-  //     email: "test@test.test",
-  //     password: "testesttest",
-  //     petName: "Testy"
-  //   });
-  // }
