@@ -18,7 +18,7 @@ If you want to run our application on your own device please complete the follow
 - Start the development server: start the Expo development server by running npm start in the project directory.
 - Connect to the app on Expo Go: Others would need to install the Expo Go app on their iOS or Android device, open it, and scan the QR code displayed in the Expo DevTools (opened in the browser) using the device’s camera.
 
-## The Design 🎨
+## The UX Design 🎨
 ![Plan (33)](https://github.com/ellenuttley/pet-it-done/assets/113264368/7b3c96e4-c13c-408f-81fe-b176d670e984)
 
 ## Languages & Frameworks Used 🖥️
@@ -40,8 +40,4 @@ If you want to run our application on your own device please complete the follow
 * [Ellen](https://github.com/ellenuttley) ✍🏼
 * [Androulla](https://github.com/n1ght0wl) 👩🏽‍💻
 * [Lesley](https://github.com/Lezlee-Lowpez)📱
-
-
-
-
 
