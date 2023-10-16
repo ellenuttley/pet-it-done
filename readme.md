@@ -7,7 +7,7 @@ If you know you need an extra dose of urgency or that hit of dopamine you experi
 
 Designed with accessibility at the forefront, to ensure an inclusive user experience. We have considered visual, motor, and cognitive accessibility needs. We used clear and legible fonts and choose color schemes that promoted an enjoyable user experience. Large, easy tappable buttons for motor accessibility were some of the other measures we took to promote accesibility throughtout our application. The language used is clear and concise for individuals with cognitive impairments. The task list feature has been designed to provide users with a manageable and fun experience, and users are limited to three tasks per day, ensuring they are not overwhelmed.
 
-## Implementation / How to Use 🛠️
+## How to Use 🛠️
 
 If you want to run our application on your own device please complete the following steps:
 
